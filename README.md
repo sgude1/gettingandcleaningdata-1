@@ -11,9 +11,9 @@ The following are the instructions for running the script run_analysis.R in orde
 
 ##Running the script
 
-* Run the script in the terminal or RStudio using the command [source("run_analysis.R")]
+* Run the script in the terminal or RStudio using the command <b>source("run_analysis.R")</b>
 * Wait for the script to execute. 
-###NOTE: Calculations coult take some minutes depending on the machine you're using.
+##(!)NOTE: Calculations coult take some minutes depending on the machine you're using.
 
 ##RESULTS
 
@@ -24,7 +24,7 @@ The directory RESULTS will contain:
 
 * A file called "tidyDataSet.txt" containing the tidy dataset needed for the assignment.
 * A file called "moreData.txt" containing more data also in a tidy format.
-###NOTE: The datasets have been written to the hard disk due to the hard processing load so it's easier to check again the datasets without running again the script.
+##(!)NOTE: The datasets have been written to the hard disk due to the hard processing load so it's easier to check again the datasets without running again the script.
 
 ##Reading the results
 
