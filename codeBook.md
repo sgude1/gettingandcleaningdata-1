@@ -1,6 +1,6 @@
 #General Information
 
-The initial datasets (available at:)  were based on the data obtained from 30 volunteers carrying a mobile phone while performing six different activities listed as:
+The initial datasets (available at: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) were based on the data obtained from 30 volunteers carrying a mobile phone while performing six different activities listed as:
 * Walking
 * Walking upstairs
 * Walking downstairs
@@ -39,6 +39,10 @@ The general steps have been:
 * Creating a <b>RESULTS</b> directory inside the working directory and writing the resulting dataset (named <i>alter</i>) to the hard disk under the name of <b>tidyDataSet.txt</b>.
 
 #Variables used after processing
-* id: Numbers from 1 to 30 identifying the subject performing the activities.
-* activity: Activity performed by the subject out of the six possible measured activities.
-* Features related with the <b>mean</b> and <b>standard deviation</b>. The original experiment names detailed at <b>features.txt</b> have been preserved.
+* <b>id</b> (column 1): Numbers from 1 to 30 identifying the subject performing the activities.
+* <b>activity</b> (column 2): Activity performed by the subject out of the six possible measured activities.
+* Features related with the <b>mean</b> and <b>standard deviation</b>. (columns from 3 to 68) The original experiment names detailed at <b>features.txt</b> have been preserved.
+
+The dimensions of the final tidy summarized dataset are 68 columns and 180 rows per column.
+
+
