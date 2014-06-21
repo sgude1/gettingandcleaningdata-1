@@ -50,6 +50,6 @@ rm(activityCodes,i)
 #EXPORTS THE DATAFRAMES created as TXT files
 dir.create(path="./RESULTS")
 write.table(ucihar,file="./RESULTS/moreData.txt", sep="\t")
-write.table(alter,file="./RESULTS/tidiDataSet.txt", sep="\t")
+write.table(alter,file="./RESULTS/tidyDataSet.txt", sep="\t")
 
 
