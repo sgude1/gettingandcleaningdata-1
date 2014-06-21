@@ -5,13 +5,13 @@ The following are the instructions for running the script run_analysis.R in orde
 
 ##Setting the working directory
 
-* First it is needed to download the raw data with which we are going to work with. The raw data is available through the following link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
-* Second, the data must be uncompressed into the working directory selected by the user.
-* Third, the R script "run_analysis.R" must be copied to the working directory. (The same directory where the directory the uncompressed raw data is.)
+* It is needed to download the raw data with which we are going to work with. The raw data is available through the following link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+* The data must be uncompressed into the working directory selected by the user.
+* The R script "run_analysis.R" (https://github.com/jmova/gettingandcleaningdata/blob/master/run_analysis.R) must be copied to the working directory. (The same directory where the uncompressed raw data is.)
 
 ##Running the script
 
-* Run the script in the terminal or RStudio using the command "source("run_analysis.R")"
+* Run the script in the terminal or RStudio using the command [source("run_analysis.R")]
 * Wait for the script to execute. 
 ###NOTE: Calculations coult take some minutes depending on the machine you're using.
 
