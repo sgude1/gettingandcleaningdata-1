@@ -30,7 +30,7 @@ The directory <b>RESULTS</b> will contain:
 
 ##Reading the results
 
-* The <i>.txt</i> files created containing the tidy dataset can be easily loaded into R using the function <b>read.csv()</b>
+* The <i>.txt</i> files created containing the tidy dataset can be easily loaded into R using the function <b>read.table()</b>
 
 
 
