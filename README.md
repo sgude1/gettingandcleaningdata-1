@@ -14,19 +14,21 @@ The following are the instructions for running the script run_analysis.R in orde
 * Run the script in the terminal or RStudio using the command <b>source("run_analysis.R")</b>
 * Wait for the script to execute. 
 
-##(!)NOTE: Calculations coult take some minutes depending on the machine you're using.
+##(!)NOTE: 
+Calculations coult take some minutes depending on the machine you're using.
 
 ##RESULTS
 
 * Once the script has finished, a directory called <b>RESULTS</b> is created inside the working directory.
-* The tidydataset will be loaded in the working directory under the name <i>ucihar</i>.
+* The tidydataset will be loaded into the R environment under the name <i>ucihar</i>.
 
 The directory RESULTS will contain:
 
 * A file called <b>tidyDataSet.txt</b> containing the tidy dataset needed for the assignment.
 * A file called <b>moreData.txt</b> containing more data also in a tidy format.
 
-##(!)NOTE: The datasets have been written to the hard disk due to the hard processing load so it's easier to check again the datasets without running again the script.
+##(!)NOTE: 
+The datasets have been written to the hard disk due to the hard processing load so it's easier to check again the datasets without running again the script.
 
 ##Reading the results
 
