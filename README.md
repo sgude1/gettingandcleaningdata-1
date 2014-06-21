@@ -21,7 +21,7 @@ The following are the instructions for running the script run_analysis.R in orde
 * Once the script has finished, a directory called <b>RESULTS</b> is created inside the working directory.
 * The tidydataset will be loaded into the R environment under the name <i>ucihar</i>.
 
-The directory RESULTS will contain:
+The directory <b>RESULTS</b> will contain:
 
 * A file called <b>tidyDataSet.txt</b> containing the tidy dataset needed for the assignment.
 * A file called <b>moreData.txt</b> containing more data also in a tidy format.
